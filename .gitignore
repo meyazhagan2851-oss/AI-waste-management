@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+build/
+.env.local
+
+# Data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/dataset/train/*/*
+backend/dataset/val/*/*
+!backend/dataset/**/.gitkeep
+backend/ai_model/saved_model/*.h5
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
